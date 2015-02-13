@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Begin harp.py"
+sudo aplay /home/pi/piano-stairs/beep-1.wav
+sudo python /home/pi/piano-stairs/harp.py &
