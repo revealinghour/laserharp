@@ -33,7 +33,7 @@ while True:
 
     else:
         line = raw_input()
-
+    line = line.strip('\n')
     line += ser1.readline() 
 #    print line
     for i in range(0, numpins):
