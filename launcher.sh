@@ -3,6 +3,6 @@
 # navigate to home directory, then to this directory, then execute python script, then back home
 
 cd /
-cd home/pi/harp/harp
+cd home/pi/harp
 sudo python harp.py
 cd /
